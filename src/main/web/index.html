@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 25px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #output {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: #e9ecef;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            border: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+<h1>Please, enter your first name and last name</h1>
+
+<form id="myForm">
+    <label for="firstName">First name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <button type="button" onclick="readData()">Show the entered data</button>
+</form>
+<div id="output"></div>
+
+<script>
+    function readData() {
+        const firstNameInput = document.getElementById("firstName");
+        const lastNameInput = document.getElementById("lastName");
+
+        const firstName = firstNameInput.value.trim();
+        const lastName = lastNameInput.value.trim();
+
+        if (!firstName && !lastName) {
+            alert("Please, enter your first name and last name.");
+            return;
+        } else if (!firstName) {
+            alert("Please, enter your first name.");
+            return;
+        } else if (!lastName) {
+            alert("Please, enter your last name.");
+            return;
+        }
+        const fullName = `${firstName} ${lastName}`;
+        document.getElementById("output").innerHTML = `Information about you: <strong>${fullName}</strong>`;
+    }
+</script>
+<nav>
+    <a href="address.html">Address</a> |
+    <a href="education.html">Education</a>
+</nav>
+<div>
+    <img src="images" alt="Photo" width="200">
+</div>
+</body>
+</html>
