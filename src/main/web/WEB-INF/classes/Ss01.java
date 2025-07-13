@@ -1,12 +1,13 @@
 import java.io.IOException;
-import javax.servlet.ServletConfig;
-import javax.servlet.annotation.WebInitParam;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import java.io.PrintWriter;
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
-
+@WebServlet("Ss01")
 public class Ss01 extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -14,6 +15,7 @@ public class Ss01 extends HttpServlet {
         super();
         System.out.println("Ss01");
     }
+
 
     public void init(ServletConfig config) throws ServletException {
         System.out.println("init");
@@ -23,7 +25,16 @@ public class Ss01 extends HttpServlet {
         System.out.println("destroy");
     }
 
-    protected void service(HttpServletRequest request, HttpServletResponce responce) throws ServletException, IOException {
+    protected void service(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException
+    {
         System.out.println("service");
+    }
+
+
+    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String protocol = req.getProtocol();
+        String msg = "http.method_get_not_supported";
+        resp.sendError(400, msg);
     }
 }
