@@ -1,28 +1,54 @@
-<project name="AS_x" default="dist" basedir=".">
+<project name="AS_x" default="copy" basedir=".">
     <property name="webapp.name" value="AS_x"/>
     <property name="src" location="src"/>
     <property name="build" location="build"/>
     <property name="server" location="C:\Program Files\Apache Software Foundation\Tomcat 11.0"/>
+    <property name="web" location="src/main/web"/>
+    <property name="images" location="${src}/web/images"/>
 
-    <target name="init">
-        <mkdir dir="${build}"/>
+    <target name="prepare">
         <mkdir dir="${server}/webapps/lab1"/>
         <mkdir dir="${server}/webapps/lab1/WEB-INF"/>
     </target>
 
-    <target name="compile" depends="init" description="compile the source">
-        <javac srcdir="${src}"
-               destdir="${build}"
-               classpath="${src}\main\web\WEB-INF\lib\jakarta.servlet-api-6.1.0.jar"
+    <target name="compile" depends="prepare" description="compile the source">
+        <javac srcdir="${src}/main/java"
+               destdir="${server}/webapps/lab1/WEB-INF/classes"
+               classpath="D:\github\webApp\src\main\web\WEB-INF\lib\jakarta.servlet-api-6.1.0.jar"
         />
     </target>
-    <target name="xyrk" depends="compile" description="generate the distribution">
 
-        <copy file="${build}/Ss01.class" todir="${server}/webapps/lab1/WEB-INF/classes"/>
+    <target name="deploy-local" depends="compile">
+        <copy todir="${server}/webapps/${webapp.name}/WEB-INF/classes">
+            <fileset dir="${build}/classes"/>
+        </copy>
+
+        <copy todir="${server}/webapps/${webapp.name}">
+            <fileset dir="${web}">
+                <include name="*.html"/>
+                <include name="images/**"/>
+            </fileset>
+        </copy>
+
+        <copy todir="${server}/webapps/${webapp.name}/WEB-INF">
+            <fileset dir="${web}/WEB-INF">
+                <include name="web.xml"/>
+                <include name="lib/*.jar"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="copy" depends="compile" description="generate the distribution">
         <copy file="${src}/main/web/address.html" todir="${server}/webapps/lab1/"/>
         <copy file="${src}/main/web/education.html" todir="${server}/webapps/lab1/"/>
         <copy file="${src}/main/web/index.html" todir="${server}/webapps/lab1/"/>
         <copy file="${src}/main/web/WEB-INF/web.xml" todir="${server}/webapps/lab1/WEB-INF/"/>
+        <copy file="${src}/web/address.html" todir="${server}/webapps/lab1/"/>
+        <copy file="${src}/web/education.html" todir="${server}/webapps/lab1/"/>
+        <copy file="${src}/web/index.html" todir="${server}/webapps/lab1/"/>
+        <copy todir="${server}/webapps/lab1/images">
+            <fileset dir="${images}"/>
+        </copy>
     </target>
 
     <target name="clean"
