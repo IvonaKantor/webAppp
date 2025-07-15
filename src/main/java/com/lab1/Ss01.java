@@ -1,5 +1,8 @@
+package com.lab1;
+
 import java.io.IOException;
 import java.io.PrintWriter;
+
 import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -7,17 +10,15 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet("Ss01")
 public class Ss01 extends HttpServlet {
-    private static final long serialVersionUID = 1L;
 
     public Ss01() {
-        super();
         System.out.println("Ss01");
     }
 
 
     public void init(ServletConfig config) throws ServletException {
+        super.init();
         System.out.println("init");
     }
 
@@ -26,15 +27,20 @@ public class Ss01 extends HttpServlet {
     }
 
     protected void service(HttpServletRequest req, HttpServletResponse resp)
-            throws ServletException, IOException
-    {
+            throws ServletException, IOException {
+        super.service(req, resp);
         System.out.println("service");
+        resp.setContentType("text/html");
+        PrintWriter out = resp.getWriter();
+        out.println("<h1>S01 servlet is working</h1>");
+        out.close();
     }
 
 
-    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String protocol = req.getProtocol();
-        String msg = "http.method_get_not_supported";
-        resp.sendError(400, msg);
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        PrintWriter out = resp.getWriter();
+
+        out.println("Ss01");
+        out.close();
     }
 }
