@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d6cd276-046a-4242-8a04-dbf717fd0f2f" name="Changes" comment="changed beforePath in the xml file">
+    <list default="true" id="0d6cd276-046a-4242-8a04-dbf717fd0f2f" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/Ss01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/Ss01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/Ss01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab1/Ss01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +84,11 @@
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\webApp\WEB-INF\classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\webApp\src\main\java\com\lab1" />
+      <recent name="D:\github\webApp\src\main\web\WEB-INF\classes" />
+      <recent name="D:\github\webApp\src\main\web\WEB-INF\classes\com.iwona" />
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\webApp\src\main\web\WEB-INF" />
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\webApp\src\main\web" />
-      <recent name="C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\webApp\src\main" />
-      <recent name="C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\webApp\web" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -112,7 +114,10 @@
       <workItem from="1752262718108" duration="4368000" />
       <workItem from="1752267779426" duration="14000" />
       <workItem from="1752267946160" duration="838000" />
-      <workItem from="1752430574413" duration="2218000" />
+      <workItem from="1752430574413" duration="13352000" />
+      <workItem from="1752491446115" duration="5543000" />
+      <workItem from="1752520909241" duration="2546000" />
+      <workItem from="1752582155698" duration="1697000" />
     </task>
     <task id="LOCAL-00001" summary="changed beforePath in the xml file">
       <option name="closed" value="true" />
@@ -122,7 +127,39 @@
       <option name="project" value="LOCAL" />
       <updated>1752268183956</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes in the workspace xml file">
+      <option name="closed" value="true" />
+      <created>1752433276594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752433276594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1752433303274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752433303274</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1752433745499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752433745499</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1752443269206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752443269206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed beforePath in the xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed beforePath in the xml file" />
+    <MESSAGE value="changes in the workspace xml file" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
