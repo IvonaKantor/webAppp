@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d6cd276-046a-4242-8a04-dbf717fd0f2f" name="Changes" comment="update">
+    <list default="true" id="0d6cd276-046a-4242-8a04-dbf717fd0f2f" name="Changes" comment="added an image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/Ss01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab1/Ss01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lab1/Ggg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lab1/Ggg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,26 +56,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/github/webAppp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/github/webApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\webApp\src\main\web\WEB-INF\lib" />
@@ -117,7 +117,11 @@
       <workItem from="1752430574413" duration="13352000" />
       <workItem from="1752491446115" duration="5543000" />
       <workItem from="1752520909241" duration="2546000" />
-      <workItem from="1752582155698" duration="1697000" />
+      <workItem from="1752582155698" duration="3554000" />
+      <workItem from="1752594164000" duration="4236000" />
+      <workItem from="1752680686662" duration="28000" />
+      <workItem from="1752769968697" duration="10000" />
+      <workItem from="1752778664141" duration="553000" />
     </task>
     <task id="LOCAL-00001" summary="changed beforePath in the xml file">
       <option name="closed" value="true" />
@@ -159,7 +163,55 @@
       <option name="project" value="LOCAL" />
       <updated>1752443269206</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed a project build file">
+      <option name="closed" value="true" />
+      <created>1752584768473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752584768473</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1752584792544</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752584792544</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added printwriter to the service method">
+      <option name="closed" value="true" />
+      <created>1752584876339</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752584876339</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added servlet tags in web.xml file for the running in loc server">
+      <option name="closed" value="true" />
+      <created>1752585016067</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752585016067</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <option name="closed" value="true" />
+      <created>1752585035074</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752585035074</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added an image">
+      <option name="closed" value="true" />
+      <created>1752585055726</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752585055726</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +231,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed beforePath in the xml file" />
     <MESSAGE value="changes in the workspace xml file" />
+    <MESSAGE value="changed a project build file" />
+    <MESSAGE value="added printwriter to the service method" />
+    <MESSAGE value="added servlet tags in web.xml file for the running in loc server" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="added an image" />
+    <option name="LAST_COMMIT_MESSAGE" value="added an image" />
   </component>
 </project>
