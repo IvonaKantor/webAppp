@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d6cd276-046a-4242-8a04-dbf717fd0f2f" name="Changes" comment="added week jsp calender">
+    <list default="true" id="0d6cd276-046a-4242-8a04-dbf717fd0f2f" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/web/jsp/afternoon.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/jsp/evening.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/jsp/morning.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/jsp/night.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/jsp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +69,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/github/webApp",
+    "last_opened_file_path": "D:/github/webApp/src/main/web/jsp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,7 +131,8 @@
       <workItem from="1752836487503" duration="3804000" />
       <workItem from="1752853802819" duration="274000" />
       <workItem from="1752865145552" duration="200000" />
-      <workItem from="1752876648605" duration="47000" />
+      <workItem from="1752876648605" duration="387000" />
+      <workItem from="1752878352281" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="changed beforePath in the xml file">
       <option name="closed" value="true" />
@@ -256,7 +262,39 @@
       <option name="project" value="LOCAL" />
       <updated>1752865208689</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="included other jsp page in the main one">
+      <option name="closed" value="true" />
+      <created>1752876873493</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752876873493</updated>
+    </task>
+    <task id="LOCAL-00018" summary="changed the project welcome file">
+      <option name="closed" value="true" />
+      <created>1752876928791</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1752876928791</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changes in workspace.xml">
+      <option name="closed" value="true" />
+      <created>1752876945672</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1752876945672</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <option name="closed" value="true" />
+      <created>1752877036865</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1752877036865</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,10 +318,12 @@
     <MESSAGE value="added printwriter to the service method" />
     <MESSAGE value="added servlet tags in web.xml file for the running in loc server" />
     <MESSAGE value="added an image" />
-    <MESSAGE value="update" />
     <MESSAGE value="added jsp page" />
-    <MESSAGE value="changes in workspace.xml" />
     <MESSAGE value="added week jsp calender" />
-    <option name="LAST_COMMIT_MESSAGE" value="added week jsp calender" />
+    <MESSAGE value="included other jsp page in the main one" />
+    <MESSAGE value="changed the project welcome file" />
+    <MESSAGE value="changes in workspace.xml" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
