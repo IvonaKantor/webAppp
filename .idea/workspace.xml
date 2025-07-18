@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d6cd276-046a-4242-8a04-dbf717fd0f2f" name="Changes" comment="changes in workspace.xml" />
+    <list default="true" id="0d6cd276-046a-4242-8a04-dbf717fd0f2f" name="Changes" comment="added week jsp calender">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/jsp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,29 +56,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/github/webApp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/github/webApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\webApp\src\main\web\jsp" />
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\webApp\src\main\web\WEB-INF\lib" />
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\webApp\lib" />
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\webApp\WEB-INF\classes" />
@@ -121,6 +125,8 @@
       <workItem from="1752778664141" duration="654000" />
       <workItem from="1752836487503" duration="3804000" />
       <workItem from="1752853802819" duration="274000" />
+      <workItem from="1752865145552" duration="200000" />
+      <workItem from="1752876648605" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="changed beforePath in the xml file">
       <option name="closed" value="true" />
@@ -234,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752854055701</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="changes in workspace.xml">
+      <option name="closed" value="true" />
+      <created>1752865166666</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1752865166666</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added week jsp calender">
+      <option name="closed" value="true" />
+      <created>1752865208689</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1752865208689</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +283,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="added jsp page" />
     <MESSAGE value="changes in workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in workspace.xml" />
+    <MESSAGE value="added week jsp calender" />
+    <option name="LAST_COMMIT_MESSAGE" value="added week jsp calender" />
   </component>
 </project>
