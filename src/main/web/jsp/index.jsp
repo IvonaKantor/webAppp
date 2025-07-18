@@ -24,5 +24,9 @@
     out.println(message + ", user. Current time: " +
             new SimpleDateFormat("HH:mm:ss").format(calendar.getTime()));
 %>
+<br>
+<hr>
+<jsp:include page="days.jsp"/>
+<hr>
 </body>
 </html>
