@@ -6,23 +6,34 @@
     <title>JSP Page</title>
 </head>
 <body>
+<h1>Click to know what time is now</h1>
+
+<form method="post">
+    <button type="submit" name="press">Press Me</button>
+</form>
 <%
-    Calendar calendar = Calendar.getInstance();
-    int hour = calendar.get(Calendar.HOUR_OF_DAY);
-    String message;
+    if ("POST".equals(request.getMethod()) && request.getParameter("press") != null) {
+        Calendar cal = Calendar.getInstance();
+        int hour = cal.get(Calendar.HOUR_OF_DAY);
 
-    if (hour >= 6 && hour < 12) {
-        message = "Good morning";
-    } else if (hour >= 12 && hour < 18) {
-        message = "Good afternoon";
-    } else if (hour >= 18 && hour < 23) {
-        message = "Good evening";
-    } else {
-        message = "Good night";
+        if (hour >= 6 && hour < 12) {
+%>
+<jsp:include page="morning.jsp"/>
+<%
+} else if (hour >= 12 && hour < 18) {
+%>
+<jsp:include page="afternoon.jsp"/>
+<%
+} else if (hour >= 18 && hour < 23) {
+%>
+<jsp:include page="evening.jsp"/>
+<%
+} else {
+%>
+<jsp:include page="night.jsp"/>
+<%
+        }
     }
-
-    out.println(message + ", user. Current time: " +
-            new SimpleDateFormat("HH:mm:ss").format(calendar.getTime()));
 %>
 <br>
 <hr>
