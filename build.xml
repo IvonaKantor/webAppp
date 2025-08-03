@@ -5,10 +5,14 @@
     <property name="server" location="C:\Program Files\Apache Software Foundation\Tomcat 11.0"/>
     <property name="web" location="src/main/web"/>
     <property name="images" location="${src}/web/images"/>
+    <property name="servlet.api.jar" location="${web}/WEB-INF/lib/jakarta.servlet-api-6.1.0.jar"/>
+    <property name="jsp.api.jar" location="${web}/WEB-INF/lib/jakarta.servlet.jsp-api-3.1.1.jar"/>
 
     <target name="prepare">
-        <mkdir dir="${server}/webapps/lab1"/>
-        <mkdir dir="${server}/webapps/lab1/WEB-INF"/>
+        <mkdir dir="${server}/webapps/${webapp.name}"/>
+        <mkdir dir="${server}/webapps/${webapp.name}/WEB-INF"/>
+        <mkdir dir="${server}/webapps/${webapp.name}/WEB-INF/classes"/>
+        <mkdir dir="${server}/webapps/${webapp.name}/WEB-INF/tags"/>
     </target>
 
     <target name="compile" depends="prepare" description="compile the source">
