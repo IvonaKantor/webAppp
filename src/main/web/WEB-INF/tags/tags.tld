@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>dossierTags</short-name>
+    <uri>https://example.com/tags/dossier</uri>
+
+    <tag>
+        <name>dossier</name>
+        <tag-class>com.lab1.tags.DossierTag</tag-class>
+        <body-content>scriptless</body-content>
+        <description>Creates a form with POST method</description>
+    </tag>
+
+    <tag>
+        <name>surname</name>
+        <tag-class>com.lab1.tags.SurnameTag</tag-class>
+        <body-content>empty</body-content>
+        <description>Input field for surname</description>
+    </tag>
+
+    <tag>
+        <name>lastname</name>
+        <tag-class>com.lab1.tags.LastnameTag</tag-class>
+        <body-content>empty</body-content>
+        <description>Input field for last name</description>
+    </tag>
+
+    <tag>
+        <name>sex</name>
+        <tag-class>com.lab1.tags.SexTag</tag-class>
+        <body-content>empty</body-content>
+        <description>Radio buttons for sex selection</description>
+    </tag>
+
+    <tag>
+        <name>submit</name>
+        <tag-class>com.lab1.tags.SubmitTag</tag-class>
+        <body-content>empty</body-content>
+        <description>Submit and Cancel buttons</description>
+    </tag>
+</taglib>
